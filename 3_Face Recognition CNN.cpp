@@ -17,6 +17,8 @@ data.images.shape
 
 data.target.shape
 
+len(pd.Series(data.target).unique())
+
 # load the "Train Images"
 x_train = data.images[:1000]
 #normalize every image
